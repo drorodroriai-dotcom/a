@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "mobrandomizer",
+  "version": "${version}",
+  "name": "Mob Randomizer",
+  "description": "Drops aleatorios, contador de kills y mobs legendarios.",
+  "authors": ["Tu"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": { "main": ["com.example.mobrandomizer.MobRandomizer"] },
+  "mixins": ["mobrandomizer.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

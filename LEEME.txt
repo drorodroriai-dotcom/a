@@ -1,0 +1,19 @@
+MOB RANDOMIZER (Fabric, Minecraft 1.21.1)
+
+COMO OBTENER EL .JAR (sin instalar nada raro):
+1. Crea una cuenta gratis en github.com y un repositorio nuevo.
+2. Sube TODO el contenido de esta carpeta (incluida la carpeta oculta .github).
+3. Ve a la pestana "Actions", espera 2-3 min a que termine "build" (check verde).
+4. Entra en esa ejecucion y descarga "mobrandomizer-jar". Dentro esta el .jar
+   (usa el que NO termina en -sources.jar).
+
+COMO JUGARLO:
+1. Instala Fabric Loader para 1.21.1 (fabricmc.net/use/installer).
+2. Descarga Fabric API 0.105.0+1.21.1 (modrinth.com/mod/fabric-api) y ponlo en .minecraft/mods
+3. Pon mobrandomizer-1.0.0.jar en .minecraft/mods
+4. Abre el launcher con el perfil de Fabric 1.21.1.
+(En servidor: igual, en la carpeta mods del servidor; los jugadores NO necesitan el mod instalado
+ para el drop/contador, pero si quieres verlo en cliente con Fabric API, tambien vale.)
+
+ALTERNATIVA LOCAL: con JDK 21 y Gradle 8.10 instalados, ejecuta "gradle build" en esta carpeta;
+el jar sale en build/libs/.
